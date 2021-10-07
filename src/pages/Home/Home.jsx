@@ -1,8 +1,8 @@
 import React from 'react';
-import {Categories, SortPopup, PizzaBlock, PizzaBlockLoader} from '../../components'
+import {Categories, SortPopup, SushiBlock, SushiBlockLoader} from '../../components'
 import { useSelector, useDispatch} from 'react-redux';
 import { setCategory, setSortBy } from '../../redux/actions/filters';
-import { fetchPizzas } from '../../redux/actions/pizzas';
+import { fetchSushi } from '../../redux/actions/sushi';
 import style from './Home.module.css'
 const categoryNames = [
   {name: 'Роллы', img: 'https://www.tanuki.ru//common/upload/Philadelphiya_1164x1164[1].jpg?width=1300&height=1300'},
@@ -17,14 +17,14 @@ const sortItems = [
   {name:'алфавиту', type: 'name', order:'asc'},
 ]
 const Home = () => {
-  const items = useSelector(({pizzas}) => pizzas.items);
+  const items = useSelector(({sushi}) => sushi.items);
   const cartItems = useSelector(({cart}) => cart.items);
-  const isLoaded = useSelector(({pizzas}) => pizzas.isLoaded);
+  const isLoaded = useSelector(({sushi}) => sushi.isLoaded);
   const {category, sortBy}= useSelector(({filters}) => filters);
   const dispatch = useDispatch();
 
   React.useEffect(() => {
-    dispatch(fetchPizzas(sortBy, category));
+    dispatch(fetchSushi(sortBy, category));
   }, [category, sortBy]);
 
   const onSelectCategory = React.useCallback((index) => {
@@ -35,9 +35,9 @@ const Home = () => {
     dispatch(setSortBy(type));
   }, []);
 
-  const handleAddPizzaToCart = (obj) => {
+  const handleAddSushiToCart = (obj) => {
     dispatch({
-      type: 'ADD_PIZZA_CART',
+      type: 'ADD_SUSHI_CART',
       payload: obj,
     });
   }
@@ -55,12 +55,12 @@ const Home = () => {
           <h2 className={style.content__title}>Меню:</h2>
           <div className={style.content__items}>
             {isLoaded ?
-             items.map((obj) => <PizzaBlock 
-              onClickAddPizza={handleAddPizzaToCart} 
+             items.map((obj) => <SushiBlock 
+              onClickAddSushi={handleAddSushiToCart} 
               key = {obj.id} 
               addedCount={cartItems[obj.id] && cartItems[obj.id].items.length}
               {...obj}/>) 
-              : Array(12).fill(0).map((_, index) => <PizzaBlockLoader key={index}/>)}
+              : Array(12).fill(0).map((_, index) => <SushiBlockLoader key={index}/>)}
           </div>
         </div>
     );

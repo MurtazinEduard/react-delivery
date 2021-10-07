@@ -7,7 +7,7 @@ const Categories = React.memo(function Categories({activeCategory, items, onClic
             <div className={style.categories__item}>
                 <div className={activeCategory === null ? style.active : style.nonactive} onClick={() => onClickCategory(null)}>
                     <div className={style.categories__block}>
-                        <img src='https://static6.tanuki.ru/product/1/jCTojjQgE3uGAv2eRjFr7NVRfP_AdcvV.jpg?width=1300&height=1300'/>
+                        <img alt='img' src='https://static6.tanuki.ru/product/1/jCTojjQgE3uGAv2eRjFr7NVRfP_AdcvV.jpg?width=1300&height=1300'/>
                         <p className={activeCategory === null ? style.active : style.nonactive}>Все</p>
                     </div>
                 </div>
@@ -18,7 +18,7 @@ const Categories = React.memo(function Categories({activeCategory, items, onClic
                     key={`${name}_${index}`}
                 >
                 <div className={style.categories__block}>
-                    <img src={name.img}/>
+                    <img alt='img' src={name.img}/>
                     <p className={activeCategory === index ? style.active : style.nonactive}>{name.name}</p>
                 </div>
                 </div>

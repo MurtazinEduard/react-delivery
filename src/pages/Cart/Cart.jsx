@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
-import { Button, CartEmpty, CartItem } from "../../components";
+import { CartEmpty, CartItem } from "../../components";
 import { clearCart, removeCartItem, plusCartItem, minusCartItem } from "../../redux/actions/cart";
 import { Link } from "react-router-dom";
 import style from './Cart.module.css'
@@ -10,7 +10,7 @@ const Cart = () => {
 
   const {totalPrice, totalCount, items} = useSelector(({cart}) => cart);
 
-  const addedPizzas = Object.keys(items).map(key => {
+  const addedSushi = Object.keys(items).map(key => {
     return items[key].items[0];
   });
 
@@ -51,7 +51,7 @@ const Cart = () => {
           </div>
           <div className={style.content__items}>
             {
-              addedPizzas.map(obj => <CartItem 
+              addedSushi.map(obj => <CartItem 
                 chapter={obj.chapter}
                 img={obj.imageUrl}
                 key={obj.id}
@@ -69,7 +69,7 @@ const Cart = () => {
           <div className={style.cart__bottom}>
             <div className={style.cart__bottom__details}>
               <span>
-                Всего пицц: <b>{totalCount} шт.</b>{" "}
+                Всего позиций: <b>{totalCount} шт.</b>{" "}
               </span>
               <span>
                 Сумма заказа: <b>{totalPrice} ₽</b>{" "}

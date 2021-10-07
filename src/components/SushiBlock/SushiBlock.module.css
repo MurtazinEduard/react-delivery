@@ -1,17 +1,17 @@
-.pizza__block{
+.sushi__block{
     height: 320px;
     width: 270px;
     text-align: center;
     justify-content: center;
 }
-.pizza__block__image{
+.sushi__block__image{
     height: 200px;
     width: 200px;
 }
-.pizza__block__title{
+.sushi__block__title{
     font-size: 1.3em;
 }
-.pizza__block__bottom{
+.sushi__block__bottom{
     display: flex;
     justify-content: space-around;
     font-size: 1.5em;

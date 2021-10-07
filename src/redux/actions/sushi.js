@@ -5,20 +5,20 @@ export const setLoaded = (payload) => ({
     payload,
 })
 
-export const fetchPizzas = (sortBy, category) => (dispatch) => {
+export const fetchSushi = (sortBy, category) => (dispatch) => {
     dispatch({
         type: 'SET_LOADED',
         payload: false,
     });
-    axios.get(`http://localhost:3000/pizzas?${category !== null 
+    axios.get(`http://localhost:3000/sushi?${category !== null 
     ?`category=${category}` 
     : ''}&_sort=${sortBy.type}&_order=${sortBy.order}`)
     .then(({ data }) => {
-        dispatch(setPizzas(data));
+        dispatch(setSushi(data));
     });
 }
 
-export const setPizzas = (items) => ({
-    type: 'SET_PIZZAS',
+export const setSushi = (items) => ({
+    type: 'SET_SUSHI',
     payload: items,
 });

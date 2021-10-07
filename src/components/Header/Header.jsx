@@ -14,7 +14,7 @@ const Header = () => {
             <div className={style.container}>
                 <Link to='/'>
                     <div className={style.header__logo}>
-                        <img width="98" src={logo} alt="Pizza logo" />
+                        <img width="98" src={logo} alt="delivery logo" />
                         <div className={style.header__logo__title}>
                             <h1>Tasty sushi</h1>
                             <p>Design by Edward.</p>

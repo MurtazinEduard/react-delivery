@@ -22,16 +22,16 @@ const getTotalSum = ( obj, path) => {
 
 const cart = (state = initialState, action) => {
     switch (action.type) {
-        case 'ADD_PIZZA_CART': {
-            const currentPizzaItems = !state.items[action.payload.id]
+        case 'ADD_SUSHI_CART': {
+            const currentSushiItems = !state.items[action.payload.id]
             ? [action.payload] 
             : [...state.items[action.payload.id].items, action.payload];
 
             const newItems = {
                 ...state.items,
                 [action.payload.id]: {
-                    items: currentPizzaItems,
-                    totalPrice: getTotalPrice(currentPizzaItems),
+                    items: currentSushiItems,
+                    totalPrice: getTotalPrice(currentSushiItems),
                 }
             };
 
