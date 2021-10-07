@@ -1,0 +1,35 @@
+.categories{
+    display: flex;
+    font-size: 1.2em;
+}
+.categories__item{
+    display: flex;
+    cursor: pointer;
+}
+ 
+.categories__block{
+    margin-left: 40px;
+}
+.categories__block img{
+    width: 75px;
+    height: 75px;
+}
+
+.active{
+    color: red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.nonactive{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.nonactive:hover{
+    color:red;
+}

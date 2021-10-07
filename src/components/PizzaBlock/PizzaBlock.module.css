@@ -1,0 +1,32 @@
+.pizza__block{
+    height: 320px;
+    width: 270px;
+    text-align: center;
+    justify-content: center;
+}
+.pizza__block__image{
+    height: 200px;
+    width: 200px;
+}
+.pizza__block__title{
+    font-size: 1.3em;
+}
+.pizza__block__bottom{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5em;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.button__add{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items:baseline;
+    padding: 0 10px 4px 10px;
+    cursor: pointer;
+}
+.button__add:hover{
+    background-color: rgba(0, 0, 0, 0.301);
+}

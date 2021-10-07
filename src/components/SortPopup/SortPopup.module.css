@@ -1,0 +1,31 @@
+.sort{
+    display: flex;
+    font-size: 1.1em;
+    flex-direction: column;
+    text-align: start;
+    padding-bottom: 50px;
+}
+.sort__label span{
+    cursor: pointer;
+    margin-left: 10px;
+}
+.sort__label span:hover{
+    color: orangered;
+}
+.sort__popup{
+    display: flex;
+    display: flex;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 143px;
+}
+.sort__popup li{
+    cursor: pointer;
+    margin-top: 10px;
+}
+.active{
+    color: orangered
+}
+.non__active{
+
+}

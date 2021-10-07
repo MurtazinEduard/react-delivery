@@ -1,0 +1,275 @@
+{
+    "pizzas" : [
+        {
+            "id": 0,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/Do5-ptttszMlBkp8WA4-8QePl-FJ6sav.jpg?width=1300&height=1300",
+            "name": "Калифорния",
+            "price": 470,
+            "category": 0,
+            "rating": 4,
+            "chapter": "Роллы"
+        },
+        {
+            "id": 1,
+            "imageUrl" : "https://static4.tanuki.ru/product/1/xRZwTLyLt3C6tw7zmf23RckJuMVt83mF.jpg?width=1300&height=1300",
+            "name": "Фурай",
+            "price": 490,
+            "category": 0,
+            "rating": 4,
+            "chapter": "Роллы"
+        },
+        {
+            "id": 2,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/LQzG2zIfLpu5fkbpwJsprISc_dC97P8E.jpg?width=1300&height=1300",
+            "name": "Мацуо",
+            "price": 390,
+            "category": 0,
+            "rating": 4,
+            "chapter": "Роллы"
+        },
+        {
+            "id": 3,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/J5v5BJQMZKWeo1qpEIYxFgiWjqP7mOQ1.jpg?width=1300&height=1300",
+            "name": "Фила нисуаз",
+            "price": 470,
+            "category": 0,
+            "rating": 4,
+            "chapter": "Роллы"
+        },
+        {
+            "id": 4,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/-2sl4QlR83fJOOivHa_UMkK_cv0M8900.jpg?width=1300&height=1300",
+            "name": "Марбл манго",
+            "price": 475,
+            "category": 0,
+            "rating": 4,
+            "chapter": "Роллы"
+        },
+        {
+            "id": 5,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/2npu1rLXYOoWAe0YZeB3pRUPBVjIwpK0.jpg?width=1300&height=1300",
+            "name": "Свит юдзу",
+            "price": 495,
+            "category": 0,
+            "rating": 4,
+            "chapter": "Роллы"
+        },
+        {
+            "id": 6,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/EojqxXs7y1AKuQbWvozXF9p-8wSNmUup.jpg?width=1300&height=1300",
+            "name": "Криспи спайс",
+            "price": 499,
+            "category": 0,
+            "rating": 4,
+            "chapter": "Роллы"
+        },
+        {
+            "id": 7,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/UKFXhd-YzPUEoB6-nT4msiFErQZXWsvt.jpg?width=1300&height=1300",
+            "name": "Курай",
+            "price": 395,
+            "category": 0,
+            "rating": 4,
+            "chapter": "Роллы"
+        },
+        {
+            "id": 8,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/XvJNOWNcdGpjt0o1geY0mV0TcK57YDja.jpg?width=1300&height=1300",
+            "name": "Мексиканский",
+            "price": 490,
+            "category": 0,
+            "rating": 4,
+            "chapter": "Роллы"
+        },
+        {
+            "id": 9,
+            "imageUrl" : "https://static4.tanuki.ru/product/1/VYqSvmA1QAjn9PtENZ8bczpCnFnqPp28.jpg?width=1300&height=1300",
+            "name": "Сенсей",
+            "price": 425,
+            "category": 0,
+            "rating": 4,
+            "chapter": "Роллы"
+        },
+        {
+            "id": 10,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/CnLqloffl4IFXAKoGKMnQHwLb-y5nJ3f.jpg?width=1300&height=1300",
+            "name": "Лосось",
+            "price": 70,
+            "category": 1,
+            "rating": 4,
+            "chapter": "Суши"
+        },
+        {
+            "id": 11,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/sPgU_-Etx9DpckWk0sE-l2468v1IiG4k.jpg?width=1300&height=1300",
+            "name": "Авокадо",
+            "price": 50,
+            "category": 1,
+            "rating": 4,
+            "chapter": "Суши"
+        },
+        {
+            "id": 12,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/LgExVhHbtjFhbRqIehR1JASstzGgSNYE.jpg?width=1300&height=1300",
+            "name": "Желтохвост",
+            "price": 90,
+            "category": 1,
+            "rating": 4,
+            "chapter": "Суши"
+        },
+        {
+            "id": 13,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/em4M6BVLTaNCl2uwN0PD-EX44o0Ct89e.jpg?width=1300&height=1300",
+            "name": "Угорь",
+            "price": 80,
+            "category": 1,
+            "rating": 4,
+            "chapter": "Суши"
+        },
+        {
+            "id": 14,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/m0o6XGORSZBJmj8MP1aTGEp7w7eShSsd.jpg?width=1300&height=1300",
+            "name": "Тунец",
+            "price": 75,
+            "category": 1,
+            "rating": 4,
+            "chapter": "Суши"
+        },
+        {
+            "id": 15,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/H9KESafRCXspEBF3N9bRRn4UEnrLQwKA.jpg?width=1300&height=1300",
+            "name": "Креветка",
+            "price": 85,
+            "category": 1,
+            "rating": 4,
+            "chapter": "Суши"
+        },
+        {
+            "id": 16,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/jCTojjQgE3uGAv2eRjFr7NVRfP_AdcvV.jpg?width=560&height=560",
+            "name": "Рамен эби",
+            "price": 499,
+            "category": 2,
+            "rating": 4,
+            "chapter": "Супы"
+        },
+        {
+            "id": 17,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/1VGg05DewKbGOMHcDbpB13dS8Ag1GS4R.jpg?width=560&height=560",
+            "name": "Биф кимчи",
+            "price": 395,
+            "category": 2,
+            "rating": 4,
+            "chapter": "Супы"
+        },
+        {
+            "id": 18,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/NMKVxC9Dw1d1ALBAQvvI-QWFcNGkltdB.jpg?width=560&height=560",
+            "name": "Лакса",
+            "price": 490,
+            "category": 2,
+            "rating": 4,
+            "chapter": "Супы"
+        },
+        {
+            "id": 19,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/hKjrPHHh7VyCw-GJqO6JJmLKOHrUzNke.jpg?width=560&height=560",
+            "name": "Мисо суп",
+            "price": 425,
+            "category": 2,
+            "rating": 4,
+            "chapter": "Супы"
+        },
+        {
+            "id": 20,
+            "imageUrl" : "https://www.tanuki.ru//common/upload/GunikuChili_1164[1][1].jpg?width=560&height=560",
+            "name": "Суп с говядиной",
+            "price": 370,
+            "category": 2,
+            "rating": 4,
+            "chapter": "Супы"
+        },
+        {
+            "id": 21,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/nGyvf0et3MCuVPV4P-l8TOFaaoNeQC9q.jpg?width=560&height=560",
+            "name": "Вишневый супрем",
+            "price": 350,
+            "category": 3,
+            "rating": 4,
+            "chapter": "Десерты"
+        },
+        {
+            "id": 22,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/lkFKh84SOZixPD70G1upG1qZBZOFOwGr.jpg?width=560&height=560",
+            "name": "Манго-пудинг",
+            "price": 290,
+            "category": 3,
+            "rating": 4,
+            "chapter": "Десерты"
+        },
+        {
+            "id": 23,
+            "imageUrl" : "https://www.tanuki.ru//common/upload/dessert_rokusan_1164[3].jpg?width=560&height=560",
+            "name": "Року сан",
+            "price": 280,
+            "category": 3,
+            "rating": 4,
+            "chapter": "Десерты"
+        },
+        {
+            "id": 24,
+            "imageUrl" : "https://static4.tanuki.ru/product/1/r21COlYNbJn2NJ9xQvt24ZAnrVXceivl.jpg?width=560&height=560",
+            "chapters": [0, 1],
+            "price": 275,
+            "category": 3,
+            "rating": 4,
+            "name": "Персик-пудинг",
+            "chapter": "Десерты"
+        },
+        {
+            "id": 25,
+            "imageUrl" : "https://www.tanuki.ru//common/upload/Painappuru_1164[1][1].jpg?width=560&height=560",
+            "name": "Спелый ананас",
+            "price": 385,
+            "category": 3,
+            "rating": 4,
+            "chapter": "Десерты"
+        },
+        {
+            "id": 26,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/dhnknv1QO42nksDCqaNX1rtOrYvM5DGa.jpg?width=560&height=560",
+            "name": "Айс-ти клюква",
+            "price": 240,
+            "category": 4,
+            "rating": 4,
+            "chapter": "Напитки"
+        },
+        {
+            "id": 27,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/U7MjW9Vuvh6PTdtxAZQCQQFgiXJhaPAC.jpg?width=560&height=560",
+            "name": "Клубника-малина",
+            "price": 295,
+            "category": 4,
+            "rating": 4,
+            "chapter": "Напитки"
+        },
+        {
+            "id": 28,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/PlmNyXcj_fFn7qCRZ28QhkNLUd0vv-Hf.jpg?width=560&height=560",
+            "name": "айс-ти персик",
+            "price": 190,
+            "category": 4,
+            "rating": 4,
+            "chapter": "Напитки"
+        },
+        {
+            "id": 29,
+            "imageUrl" : "https://static6.tanuki.ru/product/1/dc83D-P-0BR1hDyM5lwZlz7jEf5soIC_.jpg?width=560&height=560",
+            "name": "Манго",
+            "price": 425,
+            "category": 4,
+            "rating": 4,
+            "chapter": "Напитки"
+        }
+    ]
+}

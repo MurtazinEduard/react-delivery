@@ -1,0 +1,39 @@
+.header{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.466);
+    padding: 40px 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo{
+    display: flex;
+}
+.header__logo__title{
+    margin-top: 38px;
+}
+.header__logo img{
+    margin-right: 10px;
+}
+.header__logo h1{
+    color: #181818;
+    font-size: 24px;
+    letter-spacing: 1%;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.header__logo p{
+    color: #7b7b7b;
+}
+.button__cart{
+    display: flex;
+    font-size: 2em;
+    padding: 20px;
+}
+.button__delimiter{
+    height: 50px;
+    width: 2px;
+    background-color: rgba(75, 75, 75, 0.5);
+    margin: 0 10px;
+}
