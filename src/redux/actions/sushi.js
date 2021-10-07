@@ -10,7 +10,7 @@ export const fetchSushi = (sortBy, category) => (dispatch) => {
         type: 'SET_LOADED',
         payload: false,
     });
-    axios.get(`http://localhost:3000/sushi?${category !== null 
+    axios.get(`http://localhost:3001/sushi?${category !== null 
     ?`category=${category}` 
     : ''}&_sort=${sortBy.type}&_order=${sortBy.order}`)
     .then(({ data }) => {
