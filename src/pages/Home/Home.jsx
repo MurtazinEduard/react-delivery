@@ -5,11 +5,11 @@ import { setCategory, setSortBy } from '../../redux/actions/filters';
 import { fetchSushi } from '../../redux/actions/sushi';
 import style from './Home.module.css'
 const categoryNames = [
-  {name: 'Роллы', img: 'https://www.tanuki.ru//common/upload/Philadelphiya_1164x1164[1].jpg?width=1300&height=1300'},
-  {name: 'Суши', img: 'https://static6.tanuki.ru/product/1/CnLqloffl4IFXAKoGKMnQHwLb-y5nJ3f.jpg?width=1300&height=1300'}, 
-  {name: 'Супы', img: 'https://static6.tanuki.ru/product/1/hKjrPHHh7VyCw-GJqO6JJmLKOHrUzNke.jpg?width=560&height=560'}, 
-  {name: 'Десерты', img: 'https://www.tanuki.ru//common/upload/AmaiMiru_1164[4].jpg?width=1300&height=1300'}, 
-  {name: 'Напитки', img: 'https://static6.tanuki.ru/product/1/dhnknv1QO42nksDCqaNX1rtOrYvM5DGa.jpg?width=1300&height=1300'}
+  {name: 'Роллы', img: 'https://kcdn.tanuki.ru//images/1/IOkgQAji6v7LOAQlPTuT7OjALakzNmXE.jpg?width=400&height=400'},
+  {name: 'Суши', img: 'https://kcdn.tanuki.ru//images/1/f_SGWok9zP_vtbnQigt7pJEy-ouD0YZu.jpg?width=400&height=400'}, 
+  {name: 'Супы', img: 'https://kcdn.tanuki.ru//images/1/FCGJqhA437hdzmSgL1xOOfOiYxE7OIWt.jpg?width=400&height=400'}, 
+  {name: 'Десерты', img: 'https://kcdn.tanuki.ru//images/1/l6h5w3e01ISa45p_q5fjnDBczwRTZzhq.jpg?width=400&height=400'}, 
+  {name: 'Напитки', img: 'https://kcdn.tanuki.ru//images/1/q6MiOJyIRWAFQWWqYCe6y2Dgn_ctFw83.jpg?width=400&height=400'}
 ]
 const sortItems = [
   {name:'популярности', type: 'popular', order:'desc'}, 

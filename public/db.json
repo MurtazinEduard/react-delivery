@@ -2,7 +2,7 @@
     "sushi" : [
         {
             "id": 0,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/Do5-ptttszMlBkp8WA4-8QePl-FJ6sav.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/IOkgQAji6v7LOAQlPTuT7OjALakzNmXE.jpg?width=400&height=400",
             "name": "Калифорния",
             "price": 470,
             "category": 0,
@@ -11,7 +11,7 @@
         },
         {
             "id": 1,
-            "imageUrl" : "https://static4.tanuki.ru/product/1/xRZwTLyLt3C6tw7zmf23RckJuMVt83mF.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/Ho2ZqSgyhfn_fIN4n-fHyakcMeoMDBX-.jpg?width=400&height=400",
             "name": "Фурай",
             "price": 490,
             "category": 0,
@@ -20,7 +20,7 @@
         },
         {
             "id": 2,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/LQzG2zIfLpu5fkbpwJsprISc_dC97P8E.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/rEJK3tv1GMvTJHR7fyWxj_qdbzaTzXQT.jpg?width=400&height=400",
             "name": "Мацуо",
             "price": 390,
             "category": 0,
@@ -29,7 +29,7 @@
         },
         {
             "id": 3,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/J5v5BJQMZKWeo1qpEIYxFgiWjqP7mOQ1.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/U25E0j4n2zlGeJgo4CQq0VMN0S2Ubq29.jpg?width=400&height=400",
             "name": "Фила нисуаз",
             "price": 470,
             "category": 0,
@@ -38,7 +38,7 @@
         },
         {
             "id": 4,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/-2sl4QlR83fJOOivHa_UMkK_cv0M8900.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/WNqvSmTJIgqAx1CfWCHO8TUxRA6hSGHf.jpg?width=400&height=400",
             "name": "Марбл манго",
             "price": 475,
             "category": 0,
@@ -47,7 +47,7 @@
         },
         {
             "id": 5,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/2npu1rLXYOoWAe0YZeB3pRUPBVjIwpK0.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/5A_iamoeW39HQ8M791RwLHjbw5iOkvhK.jpg?width=400&height=400",
             "name": "Свит юдзу",
             "price": 495,
             "category": 0,
@@ -56,7 +56,7 @@
         },
         {
             "id": 6,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/EojqxXs7y1AKuQbWvozXF9p-8wSNmUup.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/AHgQSDa4e81H16fN6uMqSjsXIDBu0mZk.jpg?width=400&height=400",
             "name": "Криспи спайс",
             "price": 499,
             "category": 0,
@@ -65,7 +65,7 @@
         },
         {
             "id": 7,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/UKFXhd-YzPUEoB6-nT4msiFErQZXWsvt.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/cCtdrBwDenZYf92uzNkdLHmDsQPhQQTj.jpg?width=400&height=400",
             "name": "Курай",
             "price": 395,
             "category": 0,
@@ -74,7 +74,7 @@
         },
         {
             "id": 8,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/XvJNOWNcdGpjt0o1geY0mV0TcK57YDja.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/LhdOy1uC9gnr1NEJDBKTpZeSNotTGv0m.jpg?width=400&height=400",
             "name": "Мексиканский",
             "price": 490,
             "category": 0,
@@ -83,7 +83,7 @@
         },
         {
             "id": 9,
-            "imageUrl" : "https://static4.tanuki.ru/product/1/VYqSvmA1QAjn9PtENZ8bczpCnFnqPp28.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/0LQX_kF6uy511H4p3R2jsoP4ITFSvAel.jpg?width=400&height=400",
             "name": "Сенсей",
             "price": 425,
             "category": 0,
@@ -92,7 +92,7 @@
         },
         {
             "id": 10,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/CnLqloffl4IFXAKoGKMnQHwLb-y5nJ3f.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/f_SGWok9zP_vtbnQigt7pJEy-ouD0YZu.jpg?width=400&height=400",
             "name": "Лосось",
             "price": 70,
             "category": 1,
@@ -101,7 +101,7 @@
         },
         {
             "id": 11,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/sPgU_-Etx9DpckWk0sE-l2468v1IiG4k.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/BNSE6VYOjCuT3djdTNFIQb_EyR5OHXYd.jpg?width=400&height=400",
             "name": "Авокадо",
             "price": 50,
             "category": 1,
@@ -110,8 +110,8 @@
         },
         {
             "id": 12,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/LgExVhHbtjFhbRqIehR1JASstzGgSNYE.jpg?width=1300&height=1300",
-            "name": "Желтохвост",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/tDLpqiRxNID0RCLwCkLLPmXF5cKTxmPc.jpg?width=400&height=400",
+            "name": "Копченый Лосось",
             "price": 90,
             "category": 1,
             "rating": 4,
@@ -119,7 +119,7 @@
         },
         {
             "id": 13,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/em4M6BVLTaNCl2uwN0PD-EX44o0Ct89e.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/ZpstdU0f7DJkobU9eiJO2uCuY55Eoy8F.jpg?width=400&height=400",
             "name": "Угорь",
             "price": 80,
             "category": 1,
@@ -128,7 +128,7 @@
         },
         {
             "id": 14,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/m0o6XGORSZBJmj8MP1aTGEp7w7eShSsd.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/EXPqheClfi-UOvnU52CzI33kSqx1koQV.jpg?width=400&height=400",
             "name": "Тунец",
             "price": 75,
             "category": 1,
@@ -137,7 +137,7 @@
         },
         {
             "id": 15,
-            "imageUrl" : "https://static6.tanuki.ru/product/1/H9KESafRCXspEBF3N9bRRn4UEnrLQwKA.jpg?width=1300&height=1300",
+            "imageUrl" : "https://kcdn.tanuki.ru//images/1/mLIE9rtD-Mq4ZBIDxFfmpiO3gnAh-Whs.jpg?width=400&height=400",
             "name": "Креветка",
             "price": 85,
             "category": 1,
